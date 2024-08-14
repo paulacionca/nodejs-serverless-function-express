@@ -1,0 +1,10 @@
+name: nodejs-serverless-function-express
+region: us-east-1
+yamlVersion: 2
+frontend:
+    path: ./
+    publish: ""
+    scripts:
+        deploy: npm install
+        build: ""
+    subdomain: nodejs-serverless-function-express
